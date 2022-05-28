@@ -32,7 +32,7 @@ def snippet_list(request):
         return HttpResponse(status=400)
 
 
-@csrf_exempt
+# @csrf_exempt
 def snippet_detail(request, pk):
     """
     Retrieve, update or delete a single snippet by primary key
