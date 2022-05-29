@@ -1,0 +1,6 @@
+{% extends "rest_framework/base.html" %}
+
+{% load static %}
+{% block bootstrap_theme %}
+    <link rel="stylesheet" href="{% static 'rest_framework/bootswatch.darkly.bootstrap.min.css' %}" type="text/css" />
+{% endblock %}
